@@ -4,22 +4,23 @@
     margin: 0;
     padding: 0;
 }
-
-body {
-    background-color: black;
+section#container {
+    position: relative;
+    height: 97vh;
+    padding: 10px;
+    background-color: purple;
     background-image: url(imagens/espaco.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
+    background-size: cover;
+    }
 
-main.container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-}
+article#conteudo {
+    background-image: url(imagens/astronauta.png);
+    background-size: 100% 100%;
+    width: 300px;
+    height: 308px;
 
-img.astronauta {
     position: absolute;
-    
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
